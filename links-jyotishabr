@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jyotiṣa - Astrologia Hindu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fbe8d2;
+      color: #5c3d2e;
+      text-align: center;
+    }
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    p.description {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+    .link-button {
+      display: block;
+      background-color: #e8a852;
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .link-button:hover {
+      background-color: #d48635;
+    }
+    .highlight {
+      background-color: #bb4b27 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Logo Jyotisha" class="logo">
+    <h1>Jyotiṣa</h1>
+    <p class="description">Estudos, postagens e contato para consultas, cursos e palestras.</p><a class="link-button" href="https://www.jyotisha.com.br" target="_blank">🌐 Site Oficial</a>
+<a class="link-button" href="https://substack.com/@jyotishabr" target="_blank">📬 Substack</a>
+<a class="link-button" href="http://hora-sastra.blogspot.com/?m=1" target="_blank">📚 Blog Hora Śāstra</a>
+<a class="link-button" href="https://wa.me/5512997494931" target="_blank">📱 Fale por WhatsApp</a>
+<a class="link-button" href="https://lp.jyotisha.com.br/e-book-gratuito-o-que-e-o-jyotisha" target="_blank">📖 Baixe o E-book Gratuito</a>
+<a class="link-button highlight" href="https://lp.jyotisha.com.br/curso-online-fundamentos-do-jyotisha" target="_blank">🎓 Curso de Nível I (Julho 2025)</a>
+<a class="link-button" href="https://lp.jyotisha.com.br/avise-me" target="_blank">🔔 Avisos e Novidades</a>
+
+  </div>
+</body>
+</html>
