@@ -9,7 +9,9 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: radial-gradient(circle at top left, #1e477a 0%, #163963 100%);
+      background-color: #1e477a;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 40px 40px;
       color: #fff;
       display: flex;
       flex-direction: column;
@@ -48,10 +50,19 @@
       background-color: #E86A33;
       transform: scale(1.03);
     }
+
+    /* Botão "Curso Nível I" com destaque especial */
+    .curso {
+      background-color: #D35400;
+    }
+
+    .curso:hover {
+      background-color: #B84300;
+    }
   </style>
 </head>
 <body>
-  <img src="logo1-transparente-png2.png" alt="Logo Jyotisha" class="logo" />
+  <img src="logo1-transparente-png2" alt="Logo Jyotisha" class="logo" />
 
   <div class="links-container">
     <a href="https://www.jyotisha.com.br" class="link-button">Site Oficial</a>
@@ -59,7 +70,7 @@
     <a href="http://hora-sastra.blogspot.com" class="link-button">Blog</a>
     <a href="https://wa.me/5512997494931" class="link-button">WhatsApp</a>
     <a href="https://lp.jyotisha.com.br/e-book-gratuito-o-que-e-o-jyotisha" class="link-button">E-book Gratuito</a>
-    <a href="https://lp.jyotisha.com.br/curso-online-fundamentos-do-jyotisha" class="link-button">Curso Nível I</a>
+    <a href="https://lp.jyotisha.com.br/curso-online-fundamentos-do-jyotisha" class="link-button curso">Curso Nível I</a>
     <a href="https://lp.jyotisha.com.br/avise-me" class="link-button">Avisos e Novidades</a>
   </div>
 </body>
